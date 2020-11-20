@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import Toggle from 'react-toggle'
-import { useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom"
 import axios from 'axios'
-import Navbar from './Navbar'
+import Navbar from './NavBar'
 import Banner from './Banner'
+
 
 const Edit = (props) => {
   console.log(props)

@@ -3,8 +3,8 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import './styles/style.scss'
 
-import Register from './src/components/Register'
-import Login from './src/components/Login'
+import Register from './src/components/register'
+import Login from './src/components/login'
 import ProtectedRoute from './src/components/ProtectedRoute'
 import ViewProfile from './src/components/ViewProfile'
 import HomePage from './src/components/HomePage'
