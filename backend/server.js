@@ -8,7 +8,7 @@ const bodyParser = require('body-parser')
 
 const path = require('path')
 const dist = path.join(__dirname, 'dist')
-import { dbURI } from './config/environment'
+const { dbURI } = require('./config/environment')
 
 
 mongoose.connect( 

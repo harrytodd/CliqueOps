@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 const User = require('./models/userModel')
 const Profile = require('./models/profileModel')
 const Event = require('./models/eventsModel')
-import { dbURI } from './config/environment'
+const { dbURI } = require('./config/environment')
 
 mongoose.connect(
   dbURI,
