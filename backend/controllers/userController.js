@@ -26,6 +26,7 @@ function logIn(req, res) {
         secret,
         { expiresIn: '6h' }
       )
+      console.log('worked')
       res.status(200).send({ user, token, message: 'Login was successful' })
     })
 }
