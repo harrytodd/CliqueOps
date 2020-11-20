@@ -2,9 +2,10 @@ const mongoose = require('mongoose')
 const User = require('./models/userModel')
 const Profile = require('./models/profileModel')
 const Event = require('./models/eventsModel')
+import { dbURI } from './config/environment'
 
 mongoose.connect(
-  'mongodb://localhost/cliquedb',
+  dbURI,
   { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true },
   (err) => {
     if (err) console.log(err)

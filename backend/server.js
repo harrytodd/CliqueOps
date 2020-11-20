@@ -8,10 +8,11 @@ const bodyParser = require('body-parser')
 
 const path = require('path')
 const dist = path.join(__dirname, 'dist')
+import { dbURI } from './config/environment'
 
 
 mongoose.connect( 
-  'mongodb://localhost/cliquedb',
+  dbURI,
   { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true },
   (err) => {
     // * err -> tells you why you can't connect if you fail to connect
