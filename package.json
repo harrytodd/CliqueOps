@@ -6,6 +6,7 @@
   "scripts": {
     "backend": "nodemon backend/server.js",
     "seed": "node backend/seed.js",
+    "start": "node backend/server.js",
     "frontend": "webpack-dev-server --mode=development --env.NODE_ENV=local",
     "build": "webpack -p --env.NODE_ENV=production"
   },

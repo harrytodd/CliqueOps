@@ -6,6 +6,9 @@ const mongoose = require('mongoose')
 const Router = require('./router')
 const bodyParser = require('body-parser')
 
+const path = require('path')
+const dist = path.join(__dirname, 'dist')
+
 
 mongoose.connect( 
   'mongodb://localhost/cliquedb',
@@ -28,6 +31,15 @@ expressServer.use((req, res, next) => {
 // We can give it whichever port we like, but it must be unique!
 expressServer.use(bodyParser.json())
 expressServer.use('/api', Router)
+
+expressServer.use('/', express.static(dist))
+
+expressServer.get('*', function(req, res) {
+  res.sendFile(path.join(dist, 'index.html'))
+})
+
+
+
 expressServer.listen(port)
 
 
