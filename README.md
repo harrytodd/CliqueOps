@@ -395,12 +395,27 @@ This was done using the Cloudinary documentation.
 
 Here are some screenshots of the parts I completed:
 
-- Homepage
+### Homepage (plus banner and navbar)
 
-![]()
+![](screenshots/homepage.png)
 
+### Single Event (plus banner and navbar)
 
+![](screenshots/single-event.png)
 
+### Add Event (plus banner and navbar)
 
+![](screenshots/add-event.png)
 
+## Final Thoughts
+
+This was the whole group's first time working in a team on a project so getting used to collaborating using Git was hard to begin with. We stuck to a commit and merge often rule that helped us the majority of the time, but the first few times were tough. Dealing with each other's merge conflicts was, again, tough to begin with but we were quick to communicate with each other and resolve them.
+
+A few features did not get completed by my teammates as we ran out of time. In hindsight, I would have definitely set out tasks sooner distributed the work more evenly. There were team members that were just working on one component opposed to myself and one other that had multiple to do. 
+
+As a team, our vision for the app had way too many features for 1 week's worth of work. I think now, with more experience, we would be able to improve massivly on what we had produced in the given time.
+
+-
+
+You can view our project here --> ***[Clique](https://clique-app.herokuapp.com/)***  
 
