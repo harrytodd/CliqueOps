@@ -25,7 +25,7 @@ Clique is an events orientated social media site. We aimed for Clique to be a mi
 
 ## The App
 
-Myself and one other took the lead in this project In order to work coherently as a team we first all worked on the backend together, as we will all need to know what it does when it comes to developing our seperate frontend features. Also, as this was all of our first time developing a backend with no guidance, we thought it would be best if we all did it together in order to get a better understanding overall.
+Myself and one other took the lead in this project. In order to work coherently as a team, we first all worked on the backend together - as we will all need to know what it does when it comes to developing our seperate frontend features. Also, as this was all of our first time developing a backend with no guidance, we thought it would be best if we all did it together in order to get a better understanding overall.
 
 Once the backend was mostly complete, we split up and set out tasks for each other. I carried on working on the backend until it was complete.
 
