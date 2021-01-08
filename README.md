@@ -25,7 +25,7 @@ Clique is an events orientated social media site. We aimed for Clique to be a mi
 
 ## The App
 
-Myself and one other took the lead in this project In order to work coherently as a team we first all worked on the backend together, as we will all need to know what it does when it comes to developing our seperate frontend features. Also, as this was all of our first time developing a backend with no guidance, we thought it would be best if we all did it together in order to get a better understanding overall.
+Myself and one other took the lead in this project. In order to work coherently as a team, we first all worked on the backend together - as we will all need to know what it does when it comes to developing our seperate frontend features. Also, as this was all of our first time developing a backend with no guidance, we thought it would be best if we all did it together in order to get a better understanding overall.
 
 Once the backend was mostly complete, we split up and set out tasks for each other. I carried on working on the backend until it was complete.
 
@@ -260,7 +260,7 @@ function getRecentEvents(req, res) {
     .catch(err => res.send(err))
 }
 ```
-This one was the most complicated function as I had to the events depending on if the current user is the creater, invited, attending, not attending, a host or if the event is private or not. After this I had to compare all of them in an if statement and push the relevant events to an array to then send it as a JSON response.
+This one was the most complicated function as I had to filter the events depending on if the current user is the creater, invited, attending, not attending, a host or if the event is private or not. After this I had to compare all of them in an if statement and push the relevant events to an array to then send it as a JSON response.
 
 ### Extra Backend Features
 In order to add another level of security, we implimented some middleware that would check if the requester is signed in (this is done by checking if a valid token is being used).
@@ -301,13 +301,13 @@ We added various levels of error messages (e.g. "Unauthorised 1") so that we can
 
 My frontend features were:
 
-- Create the top banner and navbar:
+- Banner and NavBar:
 	- These had to be able to be used globally in the frontend, so I had to make them simple and functional.
-- Create the homepage:
+- Homepage:
 	- This is where you scroll through various events on the page (like Instagram's homepage)
-- Create the single event page:
+- Single Event Page:
 	- Where the user can interact with the event - view all information, like, comment and say if they are attending or not.
-- Add event:
+- Add Event:
 	- This is where the user can create a new event and add all of the relevant information to it, incliuding a photo, whether it's public or private, who is invited, etc. 
 
 Here is my code for the navbar:
@@ -409,13 +409,11 @@ Here are some screenshots of the parts I completed:
 
 ## Final Thoughts
 
-This was the whole group's first time working in a team on a project so getting used to collaborating using Git was hard to begin with. We stuck to a commit and merge often rule that helped us the majority of the time, but the first few times were tough. Dealing with each other's merge conflicts was, again, tough to begin with but we were quick to communicate with each other and resolve them.
+This was the whole group's first time working in a team on a project so getting used to collaborating using Git was hard to begin with. We stuck to a 'commit and merge often' rule that helped us the majority of the time, but the first few times were tough. Dealing with each other's merge conflicts was, again, tough to begin with but we were quick to communicate with each other and resolve them.
 
 A few features did not get completed by my teammates as we ran out of time. In hindsight, I would have definitely set out tasks sooner distributed the work more evenly. There were team members that were just working on one component opposed to myself and one other that had multiple to do. 
 
 As a team, our vision for the app had way too many features for 1 week's worth of work. I think now, with more experience, we would be able to improve massivly on what we had produced in the given time.
-
--
 
 You can view our project here --> ***[Clique](https://clique-app.herokuapp.com/)***  
 
