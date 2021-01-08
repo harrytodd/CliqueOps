@@ -417,3 +417,9 @@ As a team, our vision for the app had way too many features for 1 week's worth o
 
 You can view our project here --> ***[Clique](https://clique-app.herokuapp.com/)***  
 
+## Contributors
+- Harry Todd
+- [Mitchell Thomas](https://github.com/mitty009)
+- [Sagal Osman](https://github.com/sagalosman)
+- [Natasha Taylor](https://github.com/lechmere)
+
