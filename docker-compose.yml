@@ -1,0 +1,14 @@
+version: "3"
+services:
+  mongodb:
+    image : mongo:4.0
+    container_name: cliquedb
+    environment:
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - clique-volume:/data/db
+    ports:
+      - 27017:27017
+volumes:
+  clique-volume:

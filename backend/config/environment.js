@@ -5,7 +5,7 @@ const env = process.env.NODE_ENV || 'development'
 
 const dbURI = env === 'production'
   ? process.env.MONGODB_URI
-  : `mongodb://localhost/cliquedb-${env}`
+  : `mongodb://localhost/cliquedb`
 
 module.exports = {
   secret, port, dbURI
